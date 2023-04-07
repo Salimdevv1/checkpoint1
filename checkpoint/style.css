@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Lato&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+}
+.navbar{
+    background-color: #AEA8A1;
+    height: 80px;
+}
+.a-navbar{
+    margin-left: 26px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Anuphan', sans-serif;   
+    font-weight: bold;
+    font-size: 20px;
+}
+.a-navbar:hover{
+    transition: 0.8s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.title{
+    margin-left: 450px;
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;  
+}
+.header{
+    text-align: center;
+    font-family: 'Great Vibes', cursive; 
+    margin-top: 15px;
+}
+.description1{
+    margin-left: 17px;
+    margin-top: -55px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.prix{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+}
+.box1:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+.submit{
+    position: fixed;
+    
+}
